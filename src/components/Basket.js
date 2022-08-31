@@ -51,8 +51,13 @@ export default function Basket(props) {
               <div className="col-1 text-right">
                 <strong>${totalPrice.toFixed(2)}</strong>
             </div>
-            hg
+            
         </div>
+        <hr/>
+        <div className="row">
+          <button onClick={()=>alert(`Implement checkout`)}>Checkout</button>
+        </div>
+
         </>
       )}
     </aside>
